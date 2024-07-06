@@ -18,6 +18,7 @@
                     @include('frontend.account.sidebar')
                 </div>
                 <div class="col-lg-9">
+                    @include('frontend.message')
                     <div class="card border-0 shadow mb-4">
                         <form action="" method="post" id="userForm" name="userForm">
                             <div class="card-body  p-4">
